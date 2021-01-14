@@ -1,0 +1,153 @@
+@media screen and (max-width: 767px) {
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    /*ヘッダー*/
+    header {
+        background-image: url("../images/bg_header_pink_sp.jpg");
+        width: 100%;
+    }
+    header .logo {
+        margin-top: 5vh;
+    }
+    header .content {
+        padding-top: 260px;
+    }
+    .download_app_pc {
+        display: none;
+    }
+    /*サービス*/
+    .service .container {
+        flex-direction: column;
+    }
+    .service .container .item {
+        flex-basis: 100vw;
+        min-height: 540px;
+    }
+    /*価格*/
+    .price .container {
+        flex-direction: column;
+    }
+    .price .content {
+        margin-bottom: 16px;
+    }
+    .price .container .price .wrap {
+        width: auto;
+    }
+    /*はな*/
+    .flower {
+        padding: 16vmin 6vmin 20vmin;
+    }
+    .flower .container {
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+    .flower .title {
+        order: 0;
+        margin-top: 0;
+        max-height: fit-content;
+        width: 100%;
+    }
+    .flower .img {
+        order: 0;
+        width: 100%;
+    }
+    .flower .body {
+        order: 0;
+    }
+    /*花瓶*/
+    .vase {
+        padding: 16vmin 0 16vmin;
+    }
+    .vase .container {
+        height: 980px;
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+    .vase .title {
+        order: 1;
+        width: 100%;
+    }
+    .vase h2 {
+        font-size: 2.2rem;
+    }
+    .vase .img {
+        order: 2;
+        width: 100vmin;
+        background-size: 112%;
+        background-repeat: no-repeat;
+    }
+    .vase .body {
+        order: 3;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .vase .price .title {
+        font-size: 14px;
+    }
+    /*サービス2*/
+    .service2 h2 {
+        font-size: 2.2rem;
+        font-weight: normal;
+    }
+    .download {
+        padding: 16vmin 4vmin 0;
+        height: 345px;
+    }
+    .download .container {
+        flex-direction: column;
+    }
+    .download .container .logo {
+        order: 0;
+        margin: 0;
+        z-index: 100;
+        height: auto;
+    }
+    .download .container .img {
+        order: 0;
+        margin: -40px auto 0;
+        min-height: 278px;
+        height: 50vmin;
+        width: 70vmin;
+        background-size: cover;
+        background-image: url("../images/bg_download2.jpg");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    footer .container {
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+    .download_sp {
+        display: flex;
+        padding: 24px 16px;
+        background: rgba(255, 255, 255, 0.8);
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 100;
+        box-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(8px);
+    }
+    .download_sp .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .download_sp .container .badge_appstore {
+        width: 164px;
+        height: 49px;
+        margin: 0 auto;
+        background-image: url("../images/Badge_Appstore.png");
+        background-size: cover;
+        margin-right: 16px;
+    }
+    .download_sp .container .badge_googleplaystore {
+        width: 164px;
+        height: 49px;
+        margin: 0 auto;
+        background-image: url("../images/Badge_Googleplaystore.png");
+        background-size: cover;
+    }
+}
