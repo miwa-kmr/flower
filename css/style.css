@@ -44,6 +44,10 @@ header {
     color: #fff;
 }
 
+.fadein {
+    display: none;
+}
+
 header .logo {
     margin: 0 auto 16px;
     width: 131px;
